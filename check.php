@@ -1,7 +1,7 @@
 <?php
     // Define the services you want to check for here.
     $services = array(
-                      array('liamstanley.net', 80, 'Liams Site'),
+                      array('liamstanley.io', 80, 'Liams Site'),
                       array('google.com', 80, 'Google'),
                       array('livestrap.tk', 80, 'Livestrap'),
                       array('example.down.site.com', 8080, 'Example'),
