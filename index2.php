@@ -61,20 +61,41 @@
     <link href="theme.min.css" rel="stylesheet">
     </head>
     <body>
-        <h1 class="text-center">Service Status</h1>
-        <center>
-            <div class="text-center content">
-                <?php
-                yolo(
-                    array(
-                        array('liamstanley.io', 80, 'Liams Site'),
-                        array('google.com', 80, 'Google'),
-                        array('livestrap.tk', 80, 'Livestrap'),
-                        array('example.down.site.com', 8080, 'Example'),
-                        array('http://cajs.co.uk/', '', 'URL')
-                    )
-                ); ?>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Service Status</h1>
+                <center>
+                    <div class="text-center content">
+                        <?php
+                        yolo(
+                            array(
+                                array('liamstanley.io', 80, 'Liams Site'),
+                                array('google.com', 80, 'Google'),
+                                array('livestrap.tk', 80, 'Livestrap'),
+                                array('example.down.site.com', 8080, 'Example'),
+                                array('http://cajs.co.uk/', '', 'URL')
+                            )
+                        ); ?>
+                    </div>
+                </center>
             </div>
-        </center>
+            <div class="col-md-12">
+                <h1 class="text-center">Service Status</h1>
+                <center>
+                    <div class="text-center content">
+                        <?php
+                        yolo(
+                            array(
+                                array('liamstanley.io', 80, 'Liams Site'),
+                                array('google.com', 80, 'Google'),
+                                array('livestrap.tk', 80, 'Livestrap'),
+                                array('example.down.site.com', 8080, 'Example'),
+                                array('http://cajs.co.uk/', '', 'URL')
+                            )
+                        ); ?>
+                    </div>
+                </center>
+            </div>
+        </div>
     </body>
 </html>
